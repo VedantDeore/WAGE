@@ -8,6 +8,6 @@ urlpatterns = [
     path('logout',views.logoutUser, name="logout"),
     path('contact.html',views.contact, name="contact"), 
     path("index.html",views.index, name="home"),
-
+    path('about.html',views.about, name="about"),
       
 ]
