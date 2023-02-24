@@ -31,3 +31,6 @@ def logoutUser(request):
 
 def contact(request):
  return render(request, 'contact.html')
+
+def about(request):
+ return render(request, 'about.html')  
